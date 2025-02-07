@@ -1,7 +1,9 @@
+import Backgroundremoval from "../components/Backgroundremoval"
+
 const Resultpage = () => {
   return (
     <>
-    <h1>result page</h1>
+    <Backgroundremoval/>
     </>
   )
 }
