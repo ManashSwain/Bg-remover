@@ -2,8 +2,8 @@ const Steps = () => {
   return (
     <>
     <section className="text-gray-600 body-font mt-6">
-        <h1 className="text-center font-bold text-5xl">Steps to remove background</h1>
-        <h1 className="text-center font-bold text-5xl mt-2"> image in seconds.</h1>
+        <h1 className="text-3xl md:text-5xl text-center font-bold ">Steps to remove background</h1>
+        <h1 className="text-3xl md:text-5xl  text-center font-bold mt-2"> image in seconds.</h1>
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
       <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
