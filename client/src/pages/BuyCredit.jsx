@@ -1,7 +1,9 @@
+import Pricing from "../components/Pricing"
+
 const BuyCredit = () => {
   return (
    <>
-   <h1>buy credit page</h1>
+  <Pricing/>
    </>
   )
 }

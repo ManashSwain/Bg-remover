@@ -24,7 +24,7 @@ function App() {
           element : <Resultpage/>
         },
         {
-          path : "/buy",
+          path : "/pricing",
           element : <BuyCredit/>
         }
       ]
