@@ -11,13 +11,11 @@ const Steps = () => {
       </div>
       <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-500 text-white relative z-10 title-font font-medium text-sm">1</div>
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-        <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-12 h-12" viewBox="0 0 24 24">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-          </svg>
+        <div className="flex-shrink-0 w-24 h-24   inline-flex items-center justify-center">
+          <img src="uploadImage.png" alt="uploadimage" className="w-24 h-24" />
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Upload Image</h2>
+          <h2 className="font-bold title-font text-gray-900 mb-1 text-2xl">Upload Image</h2>
           <p className="leading-relaxed">Select or drag & drop an image to get started. Our AI will process it instantly.</p>
         </div>
       </div>
@@ -28,13 +26,11 @@ const Steps = () => {
       </div>
       <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center  bg-yellow-500 text-white relative z-10 title-font font-medium text-sm">2</div>
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-        <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-12 h-12" viewBox="0 0 24 24">
-            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-          </svg>
+      <div className="flex-shrink-0 w-24 h-24   inline-flex items-center justify-center">
+          <img src="processing.png" alt="uploadimage" className="w-24 h-24" />
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Remove Background </h2>
+          <h2 className="font-bold title-font text-gray-900 mb-1 text-2xl">Remove Background </h2>
           <p className="leading-relaxed">Let our advanced AI automatically detect and remove the background with high precision.</p>
         </div>
       </div>
@@ -45,14 +41,11 @@ const Steps = () => {
       </div>
       <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center  bg-yellow-500 text-white relative z-10 title-font font-medium text-sm">3</div>
       <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-        <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-12 h-12" viewBox="0 0 24 24">
-            <circle cx="12" cy="5" r="3"></circle>
-            <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-          </svg>
+      <div className="flex-shrink-0 w-24 h-24   inline-flex items-center justify-center">
+          <img src="downloadImage.png" alt="uploadimage" className="w-24 h-24" />
         </div>
         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Download Image </h2>
+          <h2 className="font-bold title-font text-gray-900 mb-1 text-2xl">Download Image </h2>
           <p className="leading-relaxed">Get your high-quality, background-free image in seconds, ready for any use. 🚀</p>
         </div>
       </div>
