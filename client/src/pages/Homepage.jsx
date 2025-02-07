@@ -1,6 +1,7 @@
 import Backgroundslider from "../components/Backgroundslider"
 import Header from "../components/Header"
 import Steps from "../components/Steps"
+import Testimonials from "../components/Testimonials"
 
 const Homepage = () => {
   return (
@@ -8,6 +9,7 @@ const Homepage = () => {
      <Header/>
      <Steps/>
      <Backgroundslider/>
+     <Testimonials/>
     </>
   )
 }

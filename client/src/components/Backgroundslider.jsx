@@ -2,7 +2,7 @@ import { ReactCompareSlider, ReactCompareSliderImage } from "react-compare-slide
 
 export default function BackgroundRemover() {
   return (
-    <section className="my-2 px-4">
+    <section className="mt-2 mb-16 px-4">
       <h1 className=" title-font text-center text-gray-600 font-bold text-2xl sm:text-4xl mb-6">
         Remove Background with High Quality and Accuracy
       </h1>
