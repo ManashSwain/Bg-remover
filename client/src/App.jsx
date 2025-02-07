@@ -1,8 +1,6 @@
-import * as React from "react";
 import {
   createBrowserRouter,
   RouterProvider,
-  Link,
 } from "react-router-dom";
 import "./App.css";
 import Rootlayout from "./layouts/Rootlayout";
