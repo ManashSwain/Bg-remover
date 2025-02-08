@@ -5,7 +5,7 @@ import userModel from "../Models/user.model.js";
 dotenv.config();
 
 // controller function to manage clerk user with mongodb database 
-const clerkWebhook = async ( req, res)=>{
+ export const clerkWebhook = async ( req, res)=>{
   try {
     const SIGNING_SECRET = process.env.CLERK_WEBHOOK_SECRET
 
