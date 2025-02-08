@@ -12,9 +12,12 @@ mongoose.connection.on("disconnected" , ()=>{
 
 const connectDB = async ()=>{
    try {
+    console.log("🔄 Attempting to connect to MongoDB...");
       await mongoose.connect(process.env.MONGODB_URI);
+      console.log("📡 MongoDB Connection Successful");
    }catch(err){
-     console.error("Error occured while connection to Database " , err)
+     console.error("Error occured while connection to Database " , err);
+     process.exit(1);
    }
 }
 
