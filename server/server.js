@@ -1,10 +1,14 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
+import connectDB from "./utils/connectDB";
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 4000;
+
+// connect db logic 
+connectDB();
 
 // cors options 
 
@@ -14,6 +18,8 @@ const corsOptions = {
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true, 
   };
+
+
 
 // middlewares 
 
