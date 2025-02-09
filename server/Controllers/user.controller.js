@@ -38,7 +38,7 @@ dotenv.config();
   })
   // Do something with payload
   // For this guide, log payload to console
-  const { id , email_addresses , image_url , first_name, last_name } = evt.data
+  const { id , email_addresses,profile_image_url , first_name, last_name } = evt.data
   const eventType = evt.type
 
   switch (eventType) {
@@ -46,7 +46,7 @@ dotenv.config();
          const userData = {
             clerkId : id ,
             email : email_addresses[0].email_address,
-            photo : image_url,
+            photo : profile_image_url,
             firstName : first_name ,
             lastName : last_name , 
          }
@@ -58,7 +58,7 @@ dotenv.config();
   case "user.updated": {
     const userData = {
         email : email_addresses[0].email_address,
-        photo : image_url,
+        photo : profile_image_url,
         firstName : first_name ,
         lastName : last_name , 
      }
