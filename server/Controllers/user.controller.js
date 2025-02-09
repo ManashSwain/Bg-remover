@@ -88,3 +88,20 @@ case "user.deleted": {
   }
 }
 
+// API controller function to get user available credits data 
+
+
+export const userCredits = async(req,res) => {
+    try {
+        const {clerkId} = req.body ;
+        const userData = await userModel.findOne({clerkId });
+
+        res.status(200).json({success : true , credits : userData.creditBalance});
+
+    }
+    catch(err){
+        console.error(err);
+        res.status().json({success : false , message : "Some error occured"});
+    }
+}
+
