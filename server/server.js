@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./utils/connectDB.js";
+import userRouter from "./Routes/user.route.js";
 dotenv.config();
 
 const app = express();
@@ -26,6 +27,10 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 app.use(express.json());
+
+// route middlewares 
+
+app.use("/api/user" , userRouter);
 
 // Backend route 
 app.get("/" , (req,res)=>{

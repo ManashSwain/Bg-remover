@@ -5,3 +5,5 @@ const userRouter = express.Router();
 
 userRouter.post("/webhooks" , clerkWebhook);
 
+
+export default userRouter;
